@@ -3,7 +3,7 @@ import Form from './Componenet/Form'
 
 const Sectionright = () => {
   return (
-    <section className='sectionright h-screen'style={{width:460}}>
+    <section className='sectionright h-screen'>
 <Form/>
     </section>
   )

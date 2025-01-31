@@ -8,7 +8,7 @@ function App() {
 
   return (
     <>
-    <div className='Container h-screen w-screen flex items-center'>
+    <div className='Container flex items-center justify-around'>
     <Sectionleft/>
     <Sectionright/>
     </div>

@@ -179,17 +179,28 @@
 
 }
 .hrm{
-  font-size: 1.5em;
+  font-size: 4em;
 }
 .imagediv img{
-  padding-top: 1em;
-  height: 8em;
+  padding: 10px;
+  padding-top: 2em;
+  height:10rem;
+}
+.visiblepart{
+  display: none;
+}
+.hiddenpart{
+  display: block;
+  display: flex;
+  align-items:center;
+  justify-content:space-between;
+  flex-direction: column;
 }
 .heading2{
-display: none;
+  width: 100vw;  
 }
-.heading1{
-  display: none;
+.rightheader{
+  width: 100vw;
 }
 .heading3{
   display: none;

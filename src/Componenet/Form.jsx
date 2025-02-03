@@ -16,8 +16,8 @@ const Form = () => {
       <section className="rightsection">
         
         <div>
-          <h1 className="designfont text-center">Create new account</h1>
-          <p className="text-sm opacity-40 text-center">
+          <h1 className="rightheader designfont text-center">Create new account</h1>
+          <p className="rightheader text-sm opacity-40 text-center">
             Welcome, please enter your detail.
           </p>
         </div>

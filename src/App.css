@@ -16,6 +16,7 @@
   justify-content: center;
   width:55%;
   height: 100%; 
+  gap: 0.8em;
   }
   .rightsection{
     display: flex;
@@ -44,12 +45,14 @@
   }
   .inputdesign {
     display: flex;
+    border-radius: 5px;
     align-items: center;
     justify-content: space-between;
     width: 20em;
     height: 1.75em;
     padding: 0.313em;
     border-radius: 0.313;
+    outline: none;
   }
     .inputdesign::placeholder {
       font-family: "Poppins", sans-serif; 

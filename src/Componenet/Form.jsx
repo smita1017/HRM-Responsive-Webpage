@@ -1,6 +1,5 @@
 import React from "react";
 import InputField from "./InputField";
-import Backimg from "../assets/Back.png";
 import Border from "./Border";
 import Button from "../Button";
 import ImgDiv from "./ImgDiv";
@@ -8,15 +7,14 @@ import Facebook from "../assets/Facebook.png";
 import google from "../assets/google.png";
 import Twitter from "../assets/Twitter.png";
 import Eye from "../assets/Eye.png";
+import Backimg from '../assets/Back.png'
+
 
 const Form = () => {
   return (
-    <section className="Formsectionright h-screen ">
-      <div className="wrapper h-full flex items-center justify-center flex-col gap-1 ">
-        <div className="backbutton flex justify-center items-center gap-3">
-          <img className="h-4 items-center " src={Backimg} alt="backsymbol" />
-          <a href="">back</a>
-        </div>
+    
+      <section className="rightsection">
+        
         <div>
           <h1 className="designfont text-center">Create new account</h1>
           <p className="text-sm opacity-40 text-center">
@@ -25,7 +23,7 @@ const Form = () => {
         </div>
         <form
           action=""
-          className="flex items-center justify-center flex-col gap-5"
+          className="form"
         >
           <InputField name="Username" />
           <InputField name="Email"/>
@@ -65,8 +63,7 @@ const Form = () => {
             <ImgDiv img={Twitter} />
           </div>
         </div>
-      </div>
-    </section>
+      </section>
   );
 };
 

@@ -1,8 +1,5 @@
 @import "tailwindcss";
-@import "@fontsource/montserrat"; /* Default weight */
-@import "@fontsource/montserrat/400.css"; /* Specific weight */
-@import "@fontsource/montserrat/700.css";
-*{
+nu*{
   padding: 0;
   margin: 0;
   box-sizing: border-box;

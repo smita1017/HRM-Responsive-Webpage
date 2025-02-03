@@ -1,225 +1,303 @@
 @import "@fontsource/montserrat";
 @import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
 
-.Container{
-  height: 100vh;
-  width: 100vw;
-}
-
-.sectionleft{
-background: linear-gradient(140.72deg, #EAECF0 -43.62%, #6C03C0 91.63%);
-width:55%;
-height: 100%; 
-padding-left: 30px;
-}
-.sectionright{
-  /* margin-top: 40px; */
-  height: 100%;
-  width: 45%;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-}
-
-.h3footer{
-  font-family: "Poppins", serif;
-  font-weight: 300;
-  font-style: normal;
-}
-.designfont{
-  font-family: "Poppins", serif;
-  font-weight:500;
-  font-size: 1.3em;
-}
-.inputdesign {
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  width: 305px;
-  height: 28px;
-  padding: 5px;
-  border-radius: 5px;
-}
-.wrapper{
-  height: 95%;
-  width: 100%;
-}
-  .inputdesign::placeholder {
-    font-family: "Poppins", sans-serif; 
-    font-weight: 400; 
-    font-size: 0.875em;
-    opacity: 0.4;
-  }
-
-.text_design_p{
-  font: size 0.77em;;
-  text-align: left;
-  width: 19.063;
-  color:#B3B3B3;
-}
-
-.backbutton{
-  width: 19rem;
-  display: flex;
-  align-items: start;
-  justify-content: start;
-  opacity: 0.5;
-  margin-right: 4em;
-}
-.hrdesign{
-  width: 5.625em;
-  opacity: 0.3;
-}
-.spandesigm{
-  color:#2498DB
-
-}
-.paradesign{
-  width: 22em;
-  height: 1em;
-  margin-bottom: 1em;
-  font-size: 0.75em;
-  font-family: "Poppins", sans-serif;  
-}
-.btnsighup{
-  font-size:1em;
-  height: 1.75em;
-  width: 18.75em;
-  font-family: "Poppins", sans-serif; 
-
-  background-color: #6C03C0;
-  border-radius: 0.25em;
-  color:white;
-  &:hover{
-    border: 0.125em solid #00CCFF;
-    cursor: pointer;
-  }
-}
-.eyeimg{
-  height: 15px;
-  position: absolute;
-  right: 44px;
-}
-
-.montserrat-regular {
-    font-family: 'Montserrat';
-    font-style: normal;
-    font-weight: 700;
-    font-size: 75px;
-    line-height: 91px;
-}
-.montserrat-small{
-font-family: 'Montserrat';
-font-style: normal;
-font-weight: 500;
-font-size: 25px;
-line-height: 30px;
-}
-.montserrat-xsm{
-  font-family: 'Montserrat';
-  font-style: normal;
-  font-weight: 200;
-  font-size: 15px;
-  line-height: 10px;
-  }
-  .montserrat-use{
-    font-family: 'Montserrat';
-  }
-  .poppins-use{
-    font-family: "Poppins", serif;
-
-  }
-
-.poppins-regular {
-  font-family: "Poppins", serif;
-  font-weight: bold;
-  font-size: 14;
-  font-style: normal;
-}
-.montserrat-bold {
-  font-family: "Montserrat", sans-serif;
-  font-optical-sizing: auto;
-  font-weight: 700;
-  font-style: normal;
-}
-
-.montserrat-light {
-  font-family: "Montserrat", sans-serif;
-  font-optical-sizing: auto;
-  font-weight: 300;
-  font-style: normal;
-}
-/* ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------                       media queary start from here      ------------------------------------------------------------------------------------------------------------------------------------------------------------------- */
-@media (max-width:600px) {
   .Container{
+    box-sizing: border-box;
     height: 100vh;
     width: 100vw;
-    box-sizing: border-box;
-    flex-direction: column;
-    /* padding: 20px; */
-    
-  }
-  .sectionleft{
-    height: 35%;
-    width: 100%;
-  }
-  /* .sectionright{
-    height: 35%;
-    width: 100%;
-  } */
-  .wrapper{
-    height: 65%;
-    width: 100%;
-  }
-  .heroimg{
-    height:100px;
-    margin-right: 40px;
-  }
-  .imagediv{
-    margin-top: 0.5em;
-    margin-left: 9rem;
-    /* background-color: red; */
-  }
-  .hrm{
-    font-size:30px;
-  } 
-}
-
-@media (min-width: 601px) and (max-width: 900px) {
-  .Container{
-    height: 100vh;
-    width: 100vw;
-    box-sizing: border-box;
-    display: flex;
-    justify-content:space-between;
-    align-items: center;  
-    gap: 20px;  /* padding: 20px; */ 
-  }
-  /* .sectionleft{
-    width: 60%;
-    height: 100%;
-  } */
-  .wrapper{
-    width:100%;
-    height: 100%;
-  }
-  /* .sectionright{
     display: flex;
     align-items: center;
     justify-content: center;
-  }  */
+  }
   .sectionleft{
-    background: linear-gradient(140.72deg, #EAECF0 -43.62%, #6C03C0 91.63%);
-    width:55%;
-    height: 100%; 
-    padding-left: 30px;
+  background: linear-gradient(140.72deg, #EAECF0 -43.62%, #6C03C0 91.63%);
+  display: flex;
+  align-items: start;
+  justify-content: center;
+  width:55%;
+  height: 100%; 
+  }
+  .rightsection{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    width: 45%;
+    height: 100%;
+  }
+  /* .backimg{
+    width: 29em;
+    margin-bottom: 4em;
+ display: flex;
+ align-items: center;
+ justify-content: start;
+  } */
+  .h3footer{
+    font-family: "Poppins", serif;
+    font-weight: 300;
+    font-style: normal;
+  }
+  .designfont{
+    font-family: "Poppins", serif;
+    font-weight:500;
+    font-size: 1.3em;
+  }
+  .inputdesign {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 20em;
+    height: 1.75em;
+    padding: 0.313em;
+    border-radius: 0.313;
+  }
+    .inputdesign::placeholder {
+      font-family: "Poppins", sans-serif; 
+      font-weight: 400; 
+      font-size: 0.875em;
+      opacity: 0.4;
     }
-    .sectionright{
-      /* margin-top: 40px; */
-      height: 100%;
-      width: 45%;
-      display: flex;
-      align-items: center;
-      justify-content: center;
+  
+  .text_design_p{
+    font-size: 0.77em;;
+    text-align: left;
+    width: 19.063;
+    color:#B3B3B3;
+  }
+  .backbutton{
+    width: 19rem;
+    display: flex;
+    align-items: start;
+    justify-content: start;
+    opacity: 0.5;
+    margin-right: 4em;
+  }
+  .hrdesign{
+    width: 5.625em;
+    opacity: 0.3;
+  }
+  .spandesigm{
+    color:#2498DB
+  
+  }
+  .paradesign{
+    width: 22em;
+    height: 1em;
+    margin-bottom: 1em;
+    font-size: 0.75em;
+    font-family: "Poppins", sans-serif;  
+  }
+  .btnsighup{
+    font-size:1em;
+    height: 1.75em;
+    width: 18.75em;
+    font-family: "Poppins", sans-serif; 
+  
+    background-color: #6C03C0;
+    border-radius: 0.25em;
+    color:white;
+    &:hover{
+      border: 0.125em solid #00CCFF;
+      cursor: pointer;
     }
+  }
+  .eyeimg{
+    height: 0.93em;
+  width: 1em;}
+  
+  .montserrat-regular {
+      font-family: 'Montserrat';
+      font-style: normal;
+      font-weight: 700;
+      font-size: 75px;
+      line-height: 91px;
+  }
+  .montserrat-small{
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 25px;
+  line-height: 30px;
+  }
+  .montserrat-xsm{
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 200;
+    font-size: 15px;
+    line-height: 10px;
+    }
+    .montserrat-use{
+      font-family: 'Montserrat';
+    }
+    .poppins-use{
+      font-family: "Poppins", serif;
+  
+    }
+  
+  .poppins-regular {
+    font-family: "Poppins", serif;
+    font-weight: bold;
+    font-size: 14;
+    font-style: normal;
+  }
+  .montserrat-bold {
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 700;
+    font-style: normal;
+  }
+  
+  .montserrat-light {
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 300;
+    font-style: normal;
+  }
+.form{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  gap: 1em;
 }
+
+  /* -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------meadia@code----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- */
+@media(max-width:600px) {
+.Container{
+  display: flex ;
+  height: 100vh;
+  width: 100vw ;
+  flex-direction: column;
+} 
+.sectionleft {
+  width: 100% ;
+  height: 50% ;
+  display: flex;
+  align-items: center;
+  justify-content:space-between;
+  padding-left: 2em;
+
+}
+.hrm{
+  font-size: 1.5em;
+}
+.imagediv img{
+  padding-top: 1em;
+  height: 8em;
+}
+.heading2{
+display: none;
+}
+.heading1{
+  display: none;
+}
+.heading3{
+  display: none;
+}
+
+
+.rightsection {
+  width: 50%; 
+  height: 100%; 
+  display: flex; 
+  align-items: center; 
+  justify-content: center;
+}
+
+}
+
+@media (min-width: 601px) and (max-width: 717px) {
+  .Container {
+    display: flex ;
+    height: 100vh;
+    width: 100vw ;
+    flex-direction: column;
+  } 
+  .sectionleft {
+    width: 100% ;
+    height: 55% ;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    padding-left: 2em;
+  }
+  .hrm{
+    font-size: 1.5em;
+  }
+  .imagediv img{
+    padding-top: 1em;
+    height: 8em;
+  }
+  .heading2{
+    font-size: small;
+  }
+ 
+ 
+  .rightsection {
+    width: 45%; 
+    height: 100%; 
+    display: flex; 
+    align-items: center; 
+    justify-content: center;
+  }
+}
+
+
+
+@media (min-width: 718px) and (max-width: 900px) {
+  .Container{
+    height: 100vh;
+    width: 100vw;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .sectionleft{
+    display: flex;
+        align-items:start;
+    justify-content: center;
+    flex-direction: column;
+    padding-left: 3em;
+    width: 55%;
+    height: 100%;
+  }
+  .rightsection{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 2em;
+    gap: 2em;
+    width: 45%;
+    height: 100%;
+  }
+}
+@media (min-width: 901px) and (max-width:2560px) {
+.Container{
+  box-sizing: border-box;
+height: 100vh;
+width: 100vw;
+display: flex;
+align-items: center;
+justify-content: center;
+}
+.sectionleft{
+  display: flex;
+  align-items:start;
+  justify-content: center;
+  flex-direction: column;
+  padding-left: 6em;
+  width: 55%;
+  height: 100%;
+}
+.rightsection{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-top: 4em;
+  width: 45%;
+  height: 100%;
+}
+} 
+

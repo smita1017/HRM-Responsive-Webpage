@@ -8,7 +8,7 @@ function App() {
 
   return (
     <>
-    <div className='Container flex items-center justify-around'>
+    <div className='Container'>
     <Sectionleft/>
     <Sectionright/>
     </div>

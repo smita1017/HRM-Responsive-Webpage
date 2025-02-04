@@ -16,7 +16,7 @@
   justify-content: center;
   width:55%;
   height: 100%; 
-  gap: 0.8em;
+  gap: 0.9em;
   }
   .rightsection{
     display: flex;
@@ -62,9 +62,13 @@
     }
   
   .text_design_p{
+    display: flex;
+    align-items: start;
+    justify-content: start;
+    font-family: "Poppins", sans-serif;
     font-size: 0.77em;;
     text-align: left;
-    width: 19.063;
+    width: 40.063;
     color:#B3B3B3;
   }
   .backbutton{

@@ -8,6 +8,7 @@ import Facebook from "../assets/Facebook.png";
 import google from "../assets/google.png";
 import Twitter from "../assets/Twitter.png";
 import Eye from "../assets/Eye.png";
+import back from "../assets/Back.png";
 
 const Form = () => {
   const [formValues, setFormValues] = useState({
@@ -53,15 +54,21 @@ const Form = () => {
   };
 
   const handleSubmit = (e) => {
+let {username,email}=formValues;
     e.preventDefault();
     if (validate()) {
-      alert("Form Submitted Successfully", formValues);
+      alert(`Form Submitted Successfully:\n Username : ${username}\nPassword : ${email}`);
       console.log("Form Submitted Successfully:", formValues);
+      formValues.username = "";
+      formValues.email = "";
+      formValues.password = "";
+      formValues.confirmpassword = "";
     }
   };
 
   return (
     <section className="rightsection">
+      <div className="flex gap-2 mr-92 mb-2 "><img src={back} /><a className="text-s text-black/50" href="#">Back</a></div>
       <div>
         <h1 className="designfont text-center">Create new account</h1>
         <p className="text-sm opacity-40 text-center">
@@ -99,7 +106,12 @@ const Form = () => {
           />
           {errors.password && <p className="text-red-500 text-sm">{errors.password}</p>}
         </div>
-
+        <div className=" flex items-start justify-center flex-col gap-1 h-0.2 w-80 -mt-3">
+          <h6 className="text_design_p">*Enter at least 8 characters</h6>
+          <div className="flex items-center justify-center gap-3 -mt-1 ml-2.5">
+            <Border /><Border /><Border />
+          </div>
+        </div>
         <div>
           <InputField
             name="confirmpassword"

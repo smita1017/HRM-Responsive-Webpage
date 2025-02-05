@@ -1,6 +1,5 @@
 
 import './App.css'
-import Form from './Componenet/Form'
 import Sectionleft from './Sectionleft'
 import Sectionright from './Sectionright'
 

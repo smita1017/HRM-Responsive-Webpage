@@ -115,7 +115,7 @@ const Form = () => {
       </div>
       <div className="rightboxh1">
         <h1 className="designfont text-center">Create new account</h1>
-        <p className="text-sm opacity-40 text-center">
+        <p className="rightboxpara text-sm opacity-40 text-center">
           Welcome, please enter your details.
         </p>
       </div>
@@ -128,7 +128,7 @@ const Form = () => {
   </div>
 )}
       <form onSubmit={handleSubmit} className="form flex items-center justify-center flex-col gap-5">
-        <div>
+        <div className="firstfeild">
           <InputField
             name="username"
             placeholder="Username"
@@ -161,9 +161,9 @@ const Form = () => {
           {errors.password && <p className="text-red-500 text-sm">{errors.password}</p>}
         </div>
 
-        <div className="flex items-start justify-center flex-col gap-1 h-0.2 w-80 -mt-3">
+        <div className="paraleftdiv flex items-start justify-center flex-col gap-1 h-0.2 w-80 -mt-3">
           <h6 className="text_design_p">*Enter at least 8 characters</h6>
-          <div className="flex items-center justify-center gap-3 -mt-1 ml-2.5">
+          <div className="flex items-center justify-center gap-3 -mt-1 text-">
             <Border /><Border /><Border />
           </div>
         </div>
@@ -195,7 +195,7 @@ const Form = () => {
       </form>
 
       <div>
-        <div className="flex items-center justify-center gap-3">
+        <div className="borderdiv flex items-center justify-center gap-3">
           <Border />
           <p>or</p>
           <Border />

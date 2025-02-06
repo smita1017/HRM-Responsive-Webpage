@@ -1,5 +1,5 @@
 {
-  "homepage": "https://github.com/smita1017/HRM-Responsive-Webpage.git",
+"homepage": "https://smita1017.github.io/HRM/",
   "name": "tailwindcss",
   "private": false,
   "version": "0.0.0",
@@ -9,7 +9,7 @@
     "build": "vite build",
     "preview": "vite preview",
     "predeploy": "npm run build",
-    "deploy": "gh-pages -b master -d build"
+    "deploy": "gh-pages -d dist"
   },
   "dependencies": {
     "@fontsource/montserrat": "^5.1.1",

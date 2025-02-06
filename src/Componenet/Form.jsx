@@ -161,7 +161,7 @@ const Form = () => {
           {errors.password && <p className="text-red-500 text-sm">{errors.password}</p>}
         </div>
 
-        <div className="paraleftdiv flex items-start justify-center flex-col gap-1 h-0.2 w-80 -mt-3">
+        <div className="paraleftdiv flex items-start justify-center flex-col gap-1 h-0.2 w-80">
           <h6 className="text_design_p">*Enter at least 8 characters</h6>
           <div className="flex items-center justify-center gap-3 -mt-1 text-">
             <Border /><Border /><Border />
